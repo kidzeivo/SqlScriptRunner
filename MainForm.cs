@@ -74,8 +74,7 @@ public partial class MainForm : Form
             Name = "lstDatabases",
             Location = new Point(12, 72),
             Size = new Size(330, 220),
-            CheckOnClick = true,
-            SelectionMode = SelectionMode.MultiExtended
+            CheckOnClick = true
         };
         lstDatabases.ItemCheck += LstDatabases_ItemCheck;
 
